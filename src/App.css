@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.dropdown-wrapper {
+  background-color: white;
+  text-align: left;
+  padding: 0 20px 20px 0;
+}
+
+button {
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid lightgray;
+  color: gray;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+h2{
+  margin: 20px;
+  font-size: 40px;
+}
+
+.search-bar {
+  border: 1px solid lightgray;
+  color: gray;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.dropdown {
+  height: 175px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-bottom: 1px solid lightgray;  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+li {
+  margin: 5px;
+}
